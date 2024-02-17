@@ -1,0 +1,26 @@
+$--swiper-theme-color: #00ffc3;
+
+:root {
+  --swiper-pagination-color: #37c4cd;
+  --swiper-pagination-bullet-size: 8px;
+  --swiper-pagination-bullet-width: 8px;
+  --swiper-pagination-bullet-height: 8px;
+  --swiper-pagination-bullet-inactive-color: #ffffff;
+  --swiper-pagination-bullet-inactive-opacity: 1;
+  --swiper-pagination-bullet-opacity: 1;
+  --swiper-pagination-bullet-horizontal-gap: 4px;
+  --swiper-pagination-bullet-vertical-gap: 6px;
+}
+.swiper-pagination {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  bottom: 10px;
+  margin: 0 auto;
+  z-index: 10;
+}
+.swiper-pagination-bullet-active {
+  height: 14px !important;
+  width: 14px !important;
+}
